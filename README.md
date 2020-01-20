@@ -8,3 +8,6 @@ Amazing Prime is trying to improve there profit margains and is running a hackat
 3.  The Postgres user remains unchanged.  This code uses information specific to the user who wrote it and would not run if used with out editing by another user<br/>
 4.  We need to assume that the datatypes in the columns that are not dropped remain the same.<br/>
 5.  Several places throughout the code we specifically call out values(months, column name, languages, etc.) and our code is not designed to run without breaking in a situation where their is a new value or a miss spelling.  Example would be in the case of someone spelling a month wrong the code would error out.
+## Code in Python Doc
+[Challenge.py](https://github.com/RudyR32/Movies_ETL/blob/master/challenge.py)<br/>
+code in .ipynb doc avaible in the repository.
